@@ -1,0 +1,58 @@
+.container {
+  width: 20rem;
+  margin: 2rem auto;
+  max-width: 80%;
+}
+
+.info {
+  font-size: 1.5rem;
+  font-style: bold;
+  text-align: center;
+}
+
+.base {
+  display: inline-flex;
+  align-items: center;
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.base p {
+  padding: 0;
+  margin-right: 0.5rem;
+  font-style: italic;
+}
+
+.base select {
+  font: inherit;
+  outline: none;
+  width: 5rem;
+  /* padding: 0.2rem 1.1rem; */
+  border: 1px solid #8583ff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.rates {
+  width: 100%;
+  margin: 0;
+  height: 20rem;
+  overflow: auto;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  border-radius: 4px;
+}
+
+.rates ul {
+  margin: auto;
+  padding-left: 1rem;
+  font-size: 1rem;
+  list-style: none;
+}
+.even {
+  background-color: rgba(173, 171, 171, 0.37);
+}
+
+@media screen and (max-width: 376px) {
+  .info {
+    font-size: 1.2rem;
+  }
+}

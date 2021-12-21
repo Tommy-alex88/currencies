@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: url(assets/images/mainImage.jpeg) no-repeat;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+}

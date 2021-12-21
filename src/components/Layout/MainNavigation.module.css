@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  align-items: center;
+  background-color: #1e1f36;
+  color: white;
+  padding: 0 10%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header nav {
+  width: 80%;
+}
+
+.logo {
+  font-family: "Lato", sans-serif;
+  font-size: 1.7rem;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.header li {
+  margin: 0 1rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.header a:hover,
+.header a.active {
+  color: #8583ff;
+}
+
+@media screen and (max-width: 376px) {
+  .logo {
+    font-size: 1.2rem;
+  }
+  .header ul {
+    font-size: 0.8rem;
+  }
+}
